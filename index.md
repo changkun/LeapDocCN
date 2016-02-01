@@ -6,11 +6,11 @@
 
 * [API 综述](devguide/Leap_Overview.md)
 * [系统架构](devguide/Leap_Architecture.md)
-* [设置项目](devguide/Project_Setup.md)
+* [项目设置](devguide/Project_Setup.md)
 
 并且，作为 LeapMotion API 的最快介绍，下面的内容是非常重要的：
 
-* [Hello World](devguide/Sample_Tutorial.md)
+* [快速入门](devguide/Sample_Tutorial.md)
 
 ## 最佳实践
 一旦你有一个你能做到的好想法，那么花点时间考虑你应该做些什么，下面的文章会有帮助：
