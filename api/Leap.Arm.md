@@ -15,7 +15,7 @@ Arm(手臂) 类表示一个追踪的手前臂。
 
 <!--The Arm class represents a tracked arm.-->
 
-注意，Arm 对象可以是无效的，这意味着它没有包含任何有效的的追踪数据且不符合一个物理手臂。无效的 Arm 对象能够作为从一个无效 Hand 对象访问一个 Arm 对象的结果。用 Arm 的构造函数创建一个 Arm 对象也可以是无效的。有效对象的检测办法是通过访问 [Arm.is_valid()](#is_valid) 属性。
+注意，Arm 对象可以是无效的，这意味着它没有包含任何有效的的追踪数据且不符合一个实际手臂。无效的 Arm 对象能够作为从一个无效 Hand 对象访问一个 Arm 对象的结果。用 Arm 的构造函数创建一个 Arm 对象也可以是无效的。有效对象的检测办法是通过访问 [Arm.is_valid()](#is_valid) 属性。
 
 <!--Note that Arm objects can be invalid, which means that they do not contain valid tracking data and do not correspond to a physical arm. Invalid Arm objects can be the result of asking for an Arm object from an invalid Hand object. An Arm object created with the Arm constructor is also invalid. Test for validity with the Arm.is_valid() attribute.-->
 
