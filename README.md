@@ -28,10 +28,10 @@
   - [追踪模型](./devguide/Leap_Tracking.md)
   - [帧](./devguide/Leap_Frames.md)
   - [手](./devguide/Leap_Hand.md)
-  - Fingers
+  - [手指](./devguide/Leap_Pointables.md)
   - Gestures
   - Touch Emulation
-  - Motions
+  - [运动](./devguide/Leap_Motions.md)
   - Coordinate Systems
   - Camera Images
   - Serializing Tracking Data
