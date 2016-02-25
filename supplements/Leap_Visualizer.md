@@ -95,6 +95,7 @@ Tracking information¶
 You can view additional information about the tracking data by pressing the L key.-->
 
 ![](../images/Leap_Visualizer.png)
+
 *LeapMotion 可视化工具展示的辅助追踪数据。*
 
 在这种模式下：
