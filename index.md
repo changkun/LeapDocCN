@@ -42,15 +42,15 @@
 
 ||||
 |:-:|:-:|:-:|
-|[Arm](./api/Leap.Arm.md)| Frame| Listener|
-|[Bone](./api/Leap.Bone.md)|Gesture|Matrix|
-|[CircleGesture](./api/Leap.CircleGesture.md)|GestureList|Pointable|
-|[Config](./api/Leap.Config.md)|Hand|PointableList|
-|Controller|HandList|ScreenTapGesture|
-|Device|Image|SwipeGesture|
+|[Arm](./api/Leap.Arm.md)| [Frame](./api/Leap.Frame.md) | [Listener](./api/Leap.Listener.md)|
+|[Bone](./api/Leap.Bone.md)|[Gesture](./api/Leap.Gesture.md)|[Matrix](./api/Leap.Matrix.md)|
+|[CircleGesture](./api/Leap.CircleGesture.md)|[GestureList](./api/Leap.GestureList.md)|[Pointable](./api/Leap.Pointable.md)|
+|[Config](./api/Leap.Config.md)|[Hand](./api/Leap.Hand.md)|[PointableList](./api/Leap.PointableList.md)|
+|[Controller](./api/Leap.Controller.md)|[HandList](./api/Leap.HandList.md)|[ScreenTapGesture](./api/Leap.ScreenTapGesture.md)|
+|[Device](./api/Leap.Device.md)|[Image](./api/Leap.Image.md)|[SwipeGesture](./api/Leap.SwipeGesture.md)|
 |[DeviceList](./api/Leap.DeviceList.md)|[ImageList](./api/Leap.ImageList.md)|[Tool](./api/Leap.Tool.md)|
-|Finger|InteractionBox|[ToolList](./api/Leap.ToolList.md)|
-|FingerList|KeyTapGesture|Vector|
+|[Finger](./api/Leap.Finger.md)|[InteractionBox](./api/Leap.InteractionBox.md)|[ToolList](./api/Leap.ToolList.md)|
+|[FingerList](./api/Leap.FingerList.md)|[KeyTapGesture](./api/Leap.KeyTapGesture.md)|[Vector](./api/Leap.Vector.md)|
 
 ## 附录
 
