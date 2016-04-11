@@ -70,6 +70,6 @@ Leap-enabled web applications
 3. The server sends tracking data in the form of JSON messages. An application can send configuration messages back to the server.
 4. The leap.js client JavaScript library should be used in web applications. The library establishes the connection to the server and consumes the JSON messages. The API presented by the JavaScript library is similar in philosophy and structure to the native API.-->
 
-这个接口主要是为 Web 应用程序服务，但实际上任何应用都能够简历一个与 WebSocket 服务的连接，接口的服务端代码遵循 [RFC6455](http://tools.ietf.org/html/rfc6455)。
+这个接口主要是为 Web 应用程序服务，但实际上任何应用都能够建立一个与 WebSocket 服务的连接，接口的服务端代码遵循 [RFC6455](http://tools.ietf.org/html/rfc6455)。
 
 <!--This interface is intended primarily for web applications, but any application that can establish a WebSocket connection can use it. The server conforms to RFC6455.-->
