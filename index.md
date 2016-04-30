@@ -1,5 +1,5 @@
 # Python 文档（v2.3）
-此版本的 SDK 变化情况请参考：[Leap Motion Release Notes]()。
+此版本的 SDK 变化情况请参考：[Leap Motion Release Notes](https://developer.leapmotion.com/documentation/python/supplements/SDK_Release_Notes.html)。
 
 ## 首先
 为了帮助你开始使用 Leap Motion API 进行编程，接下来的文章将提供一个 LeapMotion 所追踪数据的概述、LeapMotion 的硬件和软件如何工作、以及如何将 SDK 设置在项目中：
