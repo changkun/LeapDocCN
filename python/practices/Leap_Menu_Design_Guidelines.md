@@ -24,7 +24,7 @@ Interacting with a menu are actions that are often repeated and likely to be gat
 However you organize your menu to accommodate your experience and artwork, keep the usability, legibility and simplicity of interaction in mind. Be sure to space the buttons appropriately so that its easy for a user to select and tap a particular button without accidentally mis-tapping another.-->
 
 
-![](../images/menu_left_align_withInfo.jpg)
+![](../../images/menu_left_align_withInfo.jpg)
 在这个示例菜单中你可以看到工作中的最佳实践应该是什么样子的。
 
 1. 应该保持按钮足够大，易于辨认而且有一个高亮/被点击的状态
@@ -45,7 +45,7 @@ Required gestures are displayed using easy to read iconography. The recommended 
 <!--Proximity-Based Highlighting
 Another way of simplifying the menu experience for your users is to provide a proximity-based highlighting scheme. This would highlight the closest item to the user’s cursor, without having to actually be over it. In the example below, the five possible actions are outlined to show how this might work. The user’s cursor is in the upper left quadrant so therefore the Play button is lit. Performing a tap gesture would activate the Play button. Anticipating what the user might want in these contexts can save time and eliminate frustration.-->
 
-![](../images/Menus_Zones.jpg)
+![](../../images/Menus_Zones.jpg)
 
 把菜单布局和亲近高亮原则结合起来就能做出易于使用的菜单，但是通常来说这并不能做出好看并且易于让 LeapMotion 程序来使用的菜单。以下这些例子使用放射状或者网格状的菜单，希望能加深您对菜单交互这个课题的理解。这些例子使用点击（z轴）来作为激活交互方案。除此之外他们也包括了当每一个选项被选中时清晰的高亮反馈，当你在不同选项之间选择的时候会伴随着音效的提醒。最后用光标的变化来表示手指在z轴上的变化，让用户知道自己正在点击这个选项。
 
@@ -62,13 +62,13 @@ The following radial menus show how you can navigate a number of items quickly a
 
 You can find the live code example here.-->
 
-![5 Cell Radial Menu with Center Target](../images/Radial_002.png)
+![5 Cell Radial Menu with Center Target](../../images/Radial_002.png)
 
-![6 Cell Symmetrical Radial Menu](../images/Radial_005.png)
+![6 Cell Symmetrical Radial Menu](../../images/Radial_005.png)
 
-![7 Cell Radial Menu with Center Target](../images/Radial_006.png)
+![7 Cell Radial Menu with Center Target](../../images/Radial_006.png)
 
-![4 Cell Symmetrical Radial Menu with 2 Columns](../images/Radial_008.png)
+![4 Cell Symmetrical Radial Menu with 2 Columns](../../images/Radial_008.png)
 
 ## 网格菜单
 和放射状菜单相似，使用列/排布局的栅格菜单也能让用户轻松选中对应的选项。
@@ -80,13 +80,13 @@ Similar to the radial menus, these grid based menus provide a simple method of a
 
 You can find the live code example here.-->
 
-![](../images/Grid001.png)
+![](../../images/Grid001.png)
 
-![](../images/Grid002.png)
+![](../../images/Grid002.png)
 
-![](../images/Grid003.png)
+![](../../images/Grid003.png)
 
-![](../images/Grid005.png)
+![](../../images/Grid005.png)
 
 ## 菜单访问与退出
 
@@ -109,7 +109,7 @@ The Escape key should exit the app (on Mac and Windows)
 The Command-Q (Mac) or Alt-F4 (Window) should also exit
 May want to also make your menus accessible via mouse as well-->
 
-![](../images/DeadMotion.jpg)
+![](../../images/DeadMotion.jpg)
 
 第一人称射击游戏中，当用户从检测范围移开手的时候，应该像上图一样把所有运动和游戏参数暂停。
 
@@ -126,13 +126,13 @@ For any selection approach you utilize, giving users proper cues and feedback is
 
 <!--Once interacting with the element, it should respond fluidly with appropriate visual and auditory feedback. Buttons should be highlighted when hovered over and should respond with a “click” and indent as they are depressed; sliders should move freely; etc. The more information you can give to help orient the user and signal their selections, the easier it will be for them to complete each task.-->
 
-![](../images/FrogDissection_lit.jpg)
+![](../../images/FrogDissection_lit.jpg)
 
 Frog Dissection 在按钮被选择时使用变大和变亮的方式来告诉用户按钮正在被选中。
 
 <!--Frog Dissection uses large buttons that highlight and magnify when indicated and a simple z-axis poke gesture to tap/select.-->
 
-![](../images/SkyMuffins.jpg)
+![](../../images/SkyMuffins.jpg)
 
 Sky Muffins 这个应用在你指向选择按钮的时候使用 『填充』 的方式来告诉用户按钮正在被选中。
 

@@ -153,7 +153,7 @@ Note that these functions are relative to the Leap Motion origin, not to the han
 <!--Computing the Hand Orientation¶
 You can compute the hand orientation angles using the Hand direction and normal vectors.-->
 
-![法向量从手掌垂直引出；方向向量则指向前方](../images/Leap_Palm_Vectors.png)
+![法向量从手掌垂直引出；方向向量则指向前方](../../images/Leap_Palm_Vectors.png)
 
 [Vector](../api/Leap.Vector.md)定义pitch, yaw, roll 三个角度，他们分别是绕 x, y, z 三轴所成夹角。
 

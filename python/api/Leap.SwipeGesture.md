@@ -15,7 +15,7 @@
 
 SwipeGesture(滑动手势) 类表示一个滑动运动的手指或工具。
 
-![](../images/Leap_Gesture_Swipe.png)
+![](../../images/Leap_Gesture_Swipe.png)
 SwipeGesture 对象会生成每个手指或工具的滑动。
 
 重要：要在应用中使用滑动手势，你需要激活滑动手势识别。你可以通过下面的代码激活这种识别：

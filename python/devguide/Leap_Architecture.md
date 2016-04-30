@@ -19,7 +19,7 @@ The Leap Motion SDK provides two varieties of API to get tracking data from the 
 The native application interface is provided through a dynamically loaded library. This library connects to the Leap Motion service and provides tracking data to your application. You can link to the library directly in C++ and Objective-C applications, or through one of the language bindings provided for Java, C#, and Python.
 -->
 
-![支持 Leap 的应用程序](../images/Arch_OS_Level_Diagram.png)
+![支持 Leap 的应用程序](../../images/Arch_OS_Level_Diagram.png)
 
 1. LeapMtion 服务会从 USB 接口上的 LeapMotion 设备接受数据。然后处理并返回给运行只支持 Leap 的应用程序。默认情况下，服务只会给前台应用程序返回相应的追踪数据，而应用可以在后台通过请求的方式来获得相应的追踪数据（请求可以由用户来定义）。
 
@@ -53,7 +53,7 @@ WebSocket Interface
 The Leap Motion service runs a WebSocket server on the localhost domain at port 6437. The WebSocket interface provides tracking data in the form of JSON messages. A JavaScript client library is available that consumes the JSON messages and presents the tracking data as regular JavaScript objects.
 -->
 
-![支持 Leap 的 Web 应用](../images/Arch_WebSocket_Diagram.png)
+![支持 Leap 的 Web 应用](../../images/Arch_WebSocket_Diagram.png)
 
 1. LeapMotion 服务提供 WebSocket 服务器，服务监听：[http://127.0.0.1:6437](http://127.0.0.1:6437)
 

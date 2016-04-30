@@ -8,7 +8,7 @@ LeapMotion 控制器使用光学传感器和红外线。Leap可以检测当控�
 
 <!--The Leap Motion controller uses optical sensors and infrared light. The sensors are directed along the y-axis – upward when the controller is in its standard operating position – and have a field of view of about 150 degrees. The effective range of the Leap Motion Controller extends from approximately 25 to 600 millimeters above the device (1 inch to 2 feet).-->
 
-![用户手位于 LeapMotion 视野内](../images/Leap_View.jpg)
+![用户手位于 LeapMotion 视野内](../../images/Leap_View.jpg)
 
 当被追踪物体具有清晰、高对比度的轮廓时，传感器的检测和追踪能达到最佳工作状态。LeapMotion 软件结合传感器数据和其内建的人手模型来解决检测和追踪时的问题。
 
@@ -19,7 +19,7 @@ LeapMotion 使用一个右手笛卡尔坐标系，它的原点位于 LeapMotion 
 
 <!--The Leap Motion system employs a right-handed Cartesian coordinate system. The origin is centered at the top of the Leap Motion Controller. The x- and z-axes lie in the horizontal plane, with the x-axis running parallel to the long edge of the device. The y-axis is vertical, with positive values increasing upwards (in contrast to the downward orientation of most computer graphics coordinate systems). The z-axis has positive values increasing toward the user.-->
 
-![LeapMotion 右手坐标系](../images/Leap_Axes.png)
+![LeapMotion 右手坐标系](../../images/Leap_Axes.png)
 
 LeapMotion API 测量的物理量如下：
 
@@ -54,7 +54,7 @@ Angle:	radians-->
 
 <!--Hands are represented by the Hand class.-->
 
-![手的 ``palm_normal`` 和 ``direction`` 向量定义了手的朝向](../images/Leap_Palm_Vectors.png)
+![手的 ``palm_normal`` 和 ``direction`` 向量定义了手的朝向](../../images/Leap_Palm_Vectors.png)
 
 LeapMotion 软件使用人的手部模型来提供可预测的追踪，即便当手仅仅只是部分可见时。手模型始终会给出五个手指的位置，但是只有在手和手指的轮廓是清晰可见时才能达到最佳效果。软件利用了手的可见部分、它的内建模型以及历史观测信息来计算不可见部分最有可能的位置信息。值得一提的是，手指的细微动作对于 LeapMotion 传感器来说可能不太能够被检测到。[Hand.confidence](../api/Leap.Hand.md) 用于指示观测数据与内建模型的吻合度。
 
@@ -78,13 +78,13 @@ LeapMotion 控制器可以给出一只手上每一根手指的数据。如果某
 
 <!--Fingers are represented by the Finger class, which is a kind of Pointable object.-->
 
-![手指的`tip_position`和`direction`向量来表明指尖的位置和手指指向的大致方向](../images/Leap_Finger_Model.png)
+![手指的`tip_position`和`direction`向量来表明指尖的位置和手指指向的大致方向](../../images/Leap_Finger_Model.png)
 
 一个 Finger 对象包含了一个 Bone 对象，用于描述每个手指上的每个解剖学上的骨头位置和指向。
 
 <!--A Finger object provides a Bone object describing the position and orientation of each anatomical finger bone. All fingers contain four bones ordered from base to tip.-->
 
-![](../images/Finger_Bone.png)
+![](../../images/Finger_Bone.png)
 
 骨头分别是：
 
@@ -114,7 +114,7 @@ LeapMotion 控制器可以给出一只手上每一根手指的数据。如果某
 
 <!--Tools are represented by the Tool class, which is a kind of Pointable object.-->
 
-![工具比手指更长、更细、更直](../images/Leap_Tool.png)
+![工具比手指更长、更细、更直](../../images/Leap_Tool.png)
 
 只有细且为圆柱体的物体才会被认为是工具。在 v2版本中，工具是与手相互独立的。
 
@@ -134,14 +134,14 @@ LeapMotion 软件能够识别特定运动模式的手势来表达用户的意图
 
 <!--The following movement patterns are recognized by the Leap Motion software:-->
 
-![Circle — 手指画圈](../images/Leap_Gesture_Circle.png)
+![Circle — 手指画圈](../../images/Leap_Gesture_Circle.png)
 
-![Swipe — 一个手或手指的长距离线性移动](../images/Leap_Gesture_Swipe.png) 
+![Swipe — 一个手或手指的长距离线性移动](../../images/Leap_Gesture_Swipe.png) 
 
 ![Key Tap — 手指像敲击键盘一样的点击移动模式
-](../images/Leap_Gesture_Tap.png) 
+](../../images/Leap_Gesture_Tap.png) 
 
-![Screen Tap — 想垂直点击屏幕一样的点击移动模式](../images/Leap_Gesture_Tap2.png) 
+![Screen Tap — 想垂直点击屏幕一样的点击移动模式](../../images/Leap_Gesture_Tap2.png) 
 
 **注意**：在你的应用程序中使用手势之前，你必须确保你要用的每一个手势都能够被识别。你需要使用 `Controller` 类中的 `enableGesture()` 方法使你想用的手势被识别到。
 
@@ -152,7 +152,7 @@ LeapMotion 软件能够识别特定运动模式的手势来表达用户的意图
 
 <!--Motions are estimates of the basic types of movements inherent in the change of a user’s hands over a period of time. Motions include scale, rotation, and translation (change in position).-->
 
-![](../images/Motion_Graphic.png)
+![](../../images/Motion_Graphic.png)
 
 运动是在两帧之间被计算出来的。你可以从一个 [**Frame**](../api/Leap.Frame.md) 对象里获得一个场景的全部运动因子。也可以从一个 [**Hand**](../api/Leap.Hand.md) 对象里获得与单独一只手有关的运动因子。
 
@@ -176,7 +176,7 @@ LeapMotion 软件能够识别特定运动模式的手势来表达用户的意图
 
 <!--Along with the computed tracking data, you can get the raw sensor images from the Leap Motion cameras.-->
 
-![传感器原始图像即叠加的校准点](../images/Leap_Image_Raw.png)
+![传感器原始图像即叠加的校准点](../../images/Leap_Image_Raw.png)
 
 图像数据包括测量的 IR 亮度值和用户修正镜头畸变的校准数据。你可以吧传感器图像用于增强现实，尤其是当 LeapMotion 与 VR 头盔设备进行协作时候。
 

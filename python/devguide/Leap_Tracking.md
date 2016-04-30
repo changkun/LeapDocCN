@@ -2,7 +2,7 @@
 
 LeapMotion API 定义了一系列类来表示每个主要的追踪对象。
 
-![](../images/Class_Arch.png)
+![](../../images/Class_Arch.png)
 
 
 ## [Frame](../api/Leap.Frame.md)

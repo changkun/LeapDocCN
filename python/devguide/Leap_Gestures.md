@@ -19,7 +19,7 @@ Gesture 为 LeapMotion 追踪数据提供了一个比直接观察移动手指或
 
 ## 画圈
 
-![](../images/Leap_Gesture_Circle.png)
+![](../../images/Leap_Gesture_Circle.png)
 *食指的画圈手势*
 
 你可以对任何手指或工具使用画圈手势，画圈手势是连续的，一旦手势开始，LeapMotion 软件会更新这个过程直到手势结束。这个画圈手势会在画圈的手指或工具远离所在圆圈或移动过慢时停止。
@@ -29,7 +29,7 @@ Gesture 为 LeapMotion 追踪数据提供了一个比直接观察移动手指或
 ## 滑动
 LeapMotion 软件会识别一个手指的线性移动作为滑动手势。
 
-![](../images/Leap_Gesture_Swipe.png)
+![](../../images/Leap_Gesture_Swipe.png)
 *水平方向上的滑动手势*
 
 你可以对任何手指在任何方向上启用滑动手指。滑动手势是连续的。一旦手势开始，LeapMotion 软件会更新这个过程直到手势结束。这个滑动手势会在手指方向改变或移动过慢时停止。
@@ -42,7 +42,7 @@ LeapMotion 软件能识别两种类型的点按：键式点按和屏幕点按。
 
 ### 键式点按
 
-![](../images/Leap_Gesture_Tap.png)
+![](../../images/Leap_Gesture_Tap.png)
 *食指的键式点按手势*
 
 你可以像按键一样执行一个键式手势。点按手势是离散的。每次添加的点按手势只有一个 Gesture 对象。
@@ -51,7 +51,7 @@ LeapMotion 软件能识别两种类型的点按：键式点按和屏幕点按。
 
 ### 屏幕点按
 
-![](../images/Leap_Gesture_Tap2.png)
+![](../../images/Leap_Gesture_Tap2.png)
 *食指的键式点按手势*
 
 你可以像点击屏幕一样执行一个屏幕点按手势。点按手势是离散的。每次添加的点按手势只有一个 Gesture 对象。

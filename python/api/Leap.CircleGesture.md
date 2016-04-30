@@ -22,7 +22,7 @@ The CircleGesture classes represents a circular finger movement.
 
 A circle movement is recognized when the tip of a finger draws a circle within the Leap Motion Controller field of view.-->
 
-![](../images/Leap_Gesture_Circle.png)
+![](../../images/Leap_Gesture_Circle.png)
 
 注意：在你的应用中始终画圈手势识别前你必须先激活它，你可以这样做：
 

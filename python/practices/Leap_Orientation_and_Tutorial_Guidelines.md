@@ -24,13 +24,13 @@ The following are a few different ways to approach the task of guiding users and
 
 <!--One of the first introductions to your app might be the screen shots and video a user sees on your Leap Motion app store detail page. It is highly recommended that you include a video which shows off, not only the app functionality, but how a user performs the interactions needed for your app. The following apps have video demos that help users understand the game play and Leap Motion interaction.-->
 
-![](../images/BoomBall_TutorialVideo01.jpg)
+![](../../images/BoomBall_TutorialVideo01.jpg)
 [Watch the BoomBall video](https://apps.leapmotion.com/apps/boom-ball/)
 
-![](../images/Handwave_TutorialVideo_01.jpg)
+![](../../images/Handwave_TutorialVideo_01.jpg)
 [Watch the HandWAVE video](https://airspace.leapmotion.com/apps/handwave/)
 
-![](../images/Pointables_TutorialVideo_01.jpg)
+![](../../images/Pointables_TutorialVideo_01.jpg)
 [Watch the Pointables video](https://airspace.leapmotion.com/apps/pointable/windows)
 
 ## 交互『关键』
@@ -41,12 +41,12 @@ Interaction ‘Keys’
 Interaction Keys are discrete screens (shown either before starting an experience or accessible via a ‘help’ or ‘info’ menu) that outline all of the basic interactions and controls used in an app. It can be great to see everything in one place – but diagrams used need to do a good job of demonstrating both context and action. Even better, simple animations can go a long way in helping users immediately grasp the difference between discrete controls.
 -->
 
-![](../images/DeadMotion.jpg)
+![](../../images/DeadMotion.jpg)
 [Dead Motion](https://apps.leapmotion.com/apps/dead-motion-prologue/): 引导部分通过显示帮助菜单来展示所有的交互及优化 LeapMotion 控制器的位置。
 
 <!--Dead Motion: Prologue displays this thorough help menu to show all of the interactions and optimal Leap Motion controller positioning.-->
 
-![](../images/Gravilux_tutorial.jpg)
+![](../../images/Gravilux_tutorial.jpg)
 [Gravilux](https://apps.leapmotion.com/apps/gravilux/) 同样具有很好的交互逻辑。
 
 <!--Gravilux also has a well done interaction key.-->
@@ -72,9 +72,9 @@ MobileTuxedo.com-->
 <!--Walk-Through Tutorials¶
 A Walk-Through Tutorial is a series of screens, directions or interactive tasks that lead new users through each different part of your app. Often times, breaking more complicated interactions down into discrete parts can be a great way to introducing new users to the mechanics of your software. And, as always, letting users learn by doing is a great way to help them master controls in a safe environment and ultimately bolster their confidence as they dive into your app.-->
 
-![](../images/DecoSketch001.jpg)
-![](../images/DecoSketch002.jpg)
-![](../images/DecoSketch003.jpg)
+![](../../images/DecoSketch001.jpg)
+![](../../images/DecoSketch002.jpg)
+![](../../images/DecoSketch003.jpg)
 [Deco Sketch](https://apps.leapmotion.com/apps/deco-sketch/osx) 的演练教程展示了用户的手指位置如何在LeapMotion 控制器周围将 Menu 交互模式更改为 Draw 模式。
 
 <!--This walk-through tutorial by Deco Sketch shows how the user’s finger position over the Leap Motion Controller changes the interaction from “Menu” to “Draw” modes.-->
@@ -85,7 +85,7 @@ A Walk-Through Tutorial is a series of screens, directions or interactive tasks 
 <!--In-App Cues / Hints
 Giving hints or cues to a user while they are interacting with your software can be an elegant way to subtly direct behavior. Simple contextual graphics paired with instructions (e.g. a pointing hand + “Tap to Select”) can go a long way in guiding users in the right direction. It is important, however, to make sure that these cues are as unobtrusive as possible and only support the experience vs. distracting from it.-->
 
-![](../images/JungleJumper_Tutorial02.jpg)
+![](../../images/JungleJumper_Tutorial02.jpg)
 [Jungle Jumper](https://apps.leapmotion.com/apps/jungle-jumper/) 显示了应用内的提示，右下角的 HUD 同事显示了手的实时反馈。
 
 <!--Jungle Jumper displays in-app cues as well as a small HUD in the lower right corner to show you real-time feedback of your hand.-->
@@ -94,7 +94,7 @@ Jungle Jumper 右下角有一个平视显示器(Heads Up Display, HUD) ，当用
 
 <!--The Heads Up Display (HUD), shown in the lower right corner of Jungle Jumper, gives the user additional feedback as to their hand position and state. While not necessary for every app, this sort of visual feedback can be very helpful in describing to the user the extent of the Leap Motion interaction zone and what is being detected by the device.-->
 
-![](..images/WoodenSensei_Tutorial02.jpg)
+![](../../images/WoodenSensei_Tutorial02.jpg)
 
 每次你获得一个新技能时，[Wooden Sen’SeY](https://airspace.leapmotion.com/apps/wooden-sen-sey/) 都会在游戏内显示一个提示来引导用户如何使用。
 <!--Every time you receive a new skill, Wooden Sen’SeY displays an in-app cue to teach you the move.-->
@@ -108,12 +108,12 @@ Controls As Demos
 Live controls in the tutorials provides an experiential approach to teaching interactions by requiring users to perform certain simple tasks in menu selections or discreet tutorial mode. This is truly ‘learning by doing’ and can be a creative way to reinforce gestures that are core to your app. Depending upon the complexity of your application, providing these interactive tutorials or a practice mode might be worthwhile.
 -->
 
-![](../images/Handwave_Tutorial02.jpg)
+![](../../images/Handwave_Tutorial02.jpg)
 
 [HandWAVE](https://apps.leapmotion.com/apps/handwave/) 提供了一个复杂的交互教程。
 <!--HandWAVE provides a comprehensive interactivetutorial.-->
 
-![](../images/Cyberscience_Tutorial.jpg)
+![](../../images/Cyberscience_Tutorial.jpg)
 
 [Cyber Science 3D Motion](https://apps.leapmotion.com/apps/cyber-science-motion/) 里设置了一段交互教程能够引导用户如何执行所需的任务。
 

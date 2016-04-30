@@ -1,0 +1,27 @@
+# Hand
+
+属性：
+
+* [arm]
+* [basis]
+* [confidence]
+* [direction]
+* [fingers]
+* [frame]
+* [grab_strength]
+* [id]
+* [is_left]
+* [is_right]
+* [is_valid]
+* [palm_normal]
+* [palm_position]
+* [palm_velocity]
+* [palm_width]
+* [pinch_strength]
+* [pointables]
+* [sphere_center]
+* [sphere_radius]
+* [stabilized_palm_position]
+* [time_visible]
+* [tools]
+* [wrist_position]

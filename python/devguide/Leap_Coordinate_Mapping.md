@@ -8,7 +8,7 @@ LeapMotion 控制器提供了精确到毫米级的坐标值。因此，如果一
 
 LeapMotion 控制器硬件本身就是帧参考的中心。其原点位于硬件的顶部的中心。因此，如果你触摸到 LeapMotion 控制器的中央，那么你指尖的坐标应该是`[0,0,0]`。
 
-![](../images/Leap_Axes.png)
+![](../../images/Leap_Axes.png)
 *LeapMotion 控制器使用右手系*
 
 在标准位置下，用户通常坐在桌子的前方，这时为 LeapMotion 控制器的 +z 轴，而电脑本身则位于 LeapMotion 的 -z 轴。当控制器放置的位置反向时，LeapMotion 软件还会调整坐标系统（绿色 LED 灯总是朝向用户的）。但是，当用户朝向控制器的其他方向时，LeapMotion 软件则不会检测这种状态。
@@ -32,11 +32,11 @@ LeapMotion 控制器硬件本身就是帧参考的中心。其原点位于硬件
 ## 交互盒子
 
 `InteractionBox`定义了一个LeapMotion 事业中由直线围绕的区域。
-![](../images/Leap_InteractionBox.png)
+![](../../images/Leap_InteractionBox.png)
 
 和用户的手或手指停留在盒子的时间一样，它会持续停留在 LeapMotion 的视野中。你可以使用这个来确保你的应用的交互盒子能够映射到整个 LeapMotion 视野中。`InteractionBox`类提供了`normalize_point()`方法进行 LeapMotion 坐标系统到你应用坐标系统的转换（归一为[0,1]内）。
 
-![](../images/IBox_Diagram.png)
+![](../../images/IBox_Diagram.png)
 
 `InteractionBox`的大小由 LeapMotion 视野和用户交互高度（在 LeapMotion 控制面板中）决定。控制器软件根据高度保证底部边角依然位于视野内，从而调整盒子的大小。如果你设置的交互高度太高，那么盒子就会变得很大。用户可以基于他们想要的高度来设置交互高度，比如一些用户希望他们的手可以在设备更高的位置进行交互。通过使用 `InteractionBox` 映射坐标系统，你可以让你的应用适用于所有的用户。用户也能将交互的高度设置为自适应。如果用户的手比当前交互盒子的底端还要低，那么控制器软件就会自动降低交互盒子的底部（直到其达到高度的最小值）；同样的，如果用户移动到盒子的上方，那么控制器也会提升盒子的高度。
 
@@ -44,13 +44,13 @@ LeapMotion 控制器硬件本身就是帧参考的中心。其原点位于硬件
 
 因为交互盒子可以随时间的变化而变化，所以要注意，如果你使用另一帧中交互盒子进行归一时，某一帧中所测得的点的归一坐标可能不能匹配到归一后的坐标系中。
 
-![](../images/IBox_FOR.png)
+![](../../images/IBox_FOR.png)
 
 为保证一组点的归一结果一直处于追踪帧中，你可以保存一个 InteractionBox 对象——这包括理想情况下的最大高度、宽度、深度以及规范化后的所有点。
 
 映射坐标系其实更将是把温度从摄氏度变为华氏度，想象一下，每个坐标轴的起点（冻结）与终点（沸腾）：
 
-![](../images/CoordinateThermometer.png)
+![](../../images/CoordinateThermometer.png)
 
 那么你可以用下面的公司进行转换：
 

@@ -8,7 +8,7 @@
 
 <!--By modeling a human hand, the Leap Motion software can better predict the positions of fingers and hands that are not clearly in view. Five fingers are always present for a hand and hands can often cross over each other and still be tracked. Of course, the controller still needs to be able to see a finger or hand in order to accurately report its position. Keep this in mind when designing the interactions used by your application. Avoid requiring complex hand “poses” or subtle motions, especially those involving non-extended fingers.-->
 
-![在诊断可视化工具中探索全新手模型的行为](../images/Visualizer_Hand_Model.png)
+![在诊断可视化工具中探索全新手模型的行为](../../images/Visualizer_Hand_Model.png)
 
 API 的变化可能并不如你所期望的那么大，之前的 API 无论你是否使用新特性都很相似。
 

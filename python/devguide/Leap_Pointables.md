@@ -9,13 +9,13 @@
 
 可指向对象拥有许多属性来描述需要表述的手指或工具的特性。
 
-![](../images/Leap_Finger_Model.png)
+![](../../images/Leap_Finger_Model.png)
 
 `Finger` 类的 `tipPosition` 和 `direction` 向量提供了手指之间的位置和方向。
 
 LeapMotion 软件会对检测到的可指向对象分类为手指或工具。可以使用 `Pointable::isTool()` 函数来判断 Pointable 对象表示的是手指还是工具。
 
-![](../images/Leap_Tool.png)
+![](../../images/Leap_Tool.png)
 一个 `Tool` 对象比手指更长、更细且更直。
 
 * Tip position - 指尖位置，从 LeapMotion 原点以毫米为单位的瞬间位置
