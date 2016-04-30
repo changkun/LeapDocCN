@@ -42,6 +42,8 @@ controller.config.save()
 
 *New in Version 1.0*
 
+----
+
 ### 构造函数
 *classmethod* **ScreenTapGesture([gesture])**
 
@@ -59,6 +61,8 @@ gesture([Gesture](../api/Leap.Gesture.md)) - Gesture 实例专用。这个 Gestu
 
 *New in Version 1.0*
 
+----
+
 ### 属性
 
 **position**
@@ -73,6 +77,8 @@ tap_point = screen_tap.position
 
 *New in Version 1.0*
 
+--
+
 **position**
 
 类型：[Vector](../api/Leap.Vector.md)
@@ -84,6 +90,8 @@ current = screen_tap.position
 ```
 
 *New in Version 1.0*
+
+--
 
 **direction**
 
@@ -97,6 +105,8 @@ tap_direction = screen_tap.direction
 
 *New in Version 1.0*
 
+--
+
 **progress**
 
 类型：float
@@ -104,6 +114,8 @@ tap_direction = screen_tap.direction
 progress 值总是 1。
 
 *New in Version 1.0*
+
+--
 
 **pointable**
 
@@ -116,6 +128,8 @@ tapper = screen_tap.pintable
 ```
 
 *New in Version 1.0*
+
+----
 
 ### 类属性
 *classmethod* **class_type()**

@@ -58,6 +58,8 @@ gesture([Gesture](../api/Leap.Gesture.md)) - Gesture 实例专用。这个 Gestu
 
 *New in Version 1.0*
 
+----
+
 ### 属性
 
 **start_position**
@@ -72,6 +74,8 @@ start = swipe.start_position
 
 *New in Version 1.0*
 
+--
+
 **position**
 
 类型：[Vector](../api/Leap.Vector.md)
@@ -83,6 +87,8 @@ current = swipe.position
 ```
 
 *New in Version 1.0*
+
+--
 
 **direction**
 
@@ -96,6 +102,8 @@ direction = swipe.direction
 
 *New in Version 1.0*
 
+--
+
 **speed**
 
 类型：float
@@ -108,6 +116,8 @@ velocity = swipe.speed
 
 *New in Version 1.0*
 
+--
+
 **pointable**
 
 类型：[Pointable](../api/Leap.Pointable.md)
@@ -119,6 +129,8 @@ swipper = swipe.pintable
 ```
 
 *New in Version 1.0*
+
+----
 
 ### 类属性
 *classmethod* **class_type()**
