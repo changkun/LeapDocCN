@@ -24,7 +24,7 @@
   - [系统架构](./devguide/Leap_Architecture.md)
   - [运行时配置](./devguide/Leap_Configuration.md)
 * 使用追踪 API
-  - [连接到控制器](./devguide/Leap_Guides2.md)
+  - [连接到控制器](./devguide/Leap_Controllers.md)
   - [追踪模型](./devguide/Leap_Tracking.md)
   - [帧](./devguide/Leap_Frames.md)
   - [手](./devguide/Leap_Hand.md)
@@ -64,10 +64,10 @@
   - [ToolList](./api/Leap.ToolList.md)
   - Vector
 * 附录
-  - TODO: [Leap Motion Release Notes](./supplements/SDK_Release_Notes.md) 
-  - TODO: [使用 LeapMotion 控制面板](./supplements/Leap_Application.md)
+  - [Leap Motion Release Notes](https://developer.leapmotion.com/documentation/python/supplements/SDK_Release_Notes.html) 
+  - [使用 LeapMotion 控制面板](./supplements/Leap_Application.md)
   - [使用可视化诊断工具](./supplements/Leap_Visualizer.md)
-  - TODO: [WebSocket 通信](./supplements/Leap_JSON.md)
+  - [WebSocket 通信](./supplements/Leap_JSON.md)
   - [鸣谢](./supplements/Leap_Acknowledgements.md)
 
 ## 许可
