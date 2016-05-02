@@ -1,4 +1,4 @@
-# Python SDK 文档（v2.3）
+# Objective-C SDK 文档（v2.3）
 此版本的 SDK 变化情况请参考：[Leap Motion Release Notes](https://developer.leapmotion.com/documentation/python/supplements/SDK_Release_Notes.html)。
 
 ## 首先
@@ -39,18 +39,30 @@
 * [序列化追踪数据](./devguide/Leap_Serialization.md)
 
 ## API 参考
+**Classes:**
 
-||||
-|:-:|:-:|:-:|
-|[Arm](./api/Leap.Arm.md)| [Frame](./api/Leap.Frame.md) | [Listener](./api/Leap.Listener.md)|
-|[Bone](./api/Leap.Bone.md)|[Gesture](./api/Leap.Gesture.md)|[Matrix](./api/Leap.Matrix.md)|
-|[CircleGesture](./api/Leap.CircleGesture.md)|[GestureList](./api/Leap.GestureList.md)|[Pointable](./api/Leap.Pointable.md)|
-|[Config](./api/Leap.Config.md)|[Hand](./api/Leap.Hand.md)|[PointableList](./api/Leap.PointableList.md)|
-|[Controller](./api/Leap.Controller.md)|[HandList](./api/Leap.HandList.md)|[ScreenTapGesture](./api/Leap.ScreenTapGesture.md)|
-|[Device](./api/Leap.Device.md)|[Image](./api/Leap.Image.md)|[SwipeGesture](./api/Leap.SwipeGesture.md)|
-|[DeviceList](./api/Leap.DeviceList.md)|[ImageList](./api/Leap.ImageList.md)|[Tool](./api/Leap.Tool.md)|
-|[Finger](./api/Leap.Finger.md)|[InteractionBox](./api/Leap.InteractionBox.md)|[ToolList](./api/Leap.ToolList.md)|
-|[FingerList](./api/Leap.FingerList.md)|[KeyTapGesture](./api/Leap.KeyTapGesture.md)|[Vector](./api/Leap.Vector.md)|
+|||
+|:--:|:--:|
+|[LeapArm](../api/Leap.Arm.md)|[LeapImage](../api/Leap.Image.md)|
+|[LeapBone](../api/Leap.Bone.md)|[LeapInteractionBox](../api/Leap.InteractionBox.md)|
+|[LeapCircleGesture](../api/Leap.CircleGesture.md)|[LeapKeyTapGesture](../api/Leap.KeyTapGesture.md)|
+|[LeapConfig](../api/Leap.Config.md)|[LeapMatrix](../api/Leap.Matrix.md)|
+|[LeapController](../api/Leap.Controller.md)|[LeapPointable](../api/Leap.Pointable.md)|
+|[LeapDevice](../api/Leap.Device.md)|[LeapScreenTapGesture](../api/Leap.ScreenTapGesture.md)|
+|[LeapFinger](../api/Leap.Finger.md)|[LeapSwipeGesture](../api/Leap.SwipeGesture.md)|
+|[LeapFrame](../api/Leap.Frame.md)|[LeapTool](../api/Leap.Tool.md)|
+|[LeapGesture](../api/Leap.Gesture.md)|[LeapVector](../api/Leap.Vector.md)|
+|[LeapHand](../api/Leap.Hand.md)||
+
+**Protocols:**
+
+|||
+|:--:|:--:|
+|[LeapListener protocol](../api/Leap.Listener.md)|[LeapDelegate protocol](../api/Leap.Delegate.md)|
+
+**Categories:**
+
+[LeapPointableOrHandList](../api/Leap.HandList.md)
 
 ## 附录
 
