@@ -1,4 +1,4 @@
-# LeapMotion SDK 中文文档 - Python
+# LeapMotion SDK 中文文档 - C++
 
 <div style="text-align: left;">
     <img src="../images/logo.png" style="height: 100px;">
